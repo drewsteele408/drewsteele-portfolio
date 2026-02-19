@@ -28,6 +28,17 @@ export function ProjectDetail() {
         <p className="detail-description">{project.description}</p>
       </div>
 
+      {/* Video Demo */}
+      {project.videoUrl && (
+        <section className="detail-section">
+          <h2>Video Demo</h2>
+          <video width="100%" controls>
+            <source src={project.videoUrl} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </section>
+      )}
+
       {/* Problem & Solution */}
       <section className="detail-section">
         <h2>Problem → Solution</h2>
@@ -81,14 +92,7 @@ export function ProjectDetail() {
       <section className="detail-section">
         <h2>Links & Resources</h2>
         <div className="project-links">
-          <a
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-button primary"
-          >
-            → View Live Demo
-          </a>
+  
           <a
             href={project.repoUrl}
             target="_blank"

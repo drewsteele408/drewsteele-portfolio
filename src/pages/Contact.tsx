@@ -10,19 +10,19 @@ export function Contact() {
 
       <div className="contact-links">
         <a
-          href="mailto:drew@example.com"
+          href="mailto:drewsteele408@gmail.com"
           className="contact-link email-link"
         >
           <span className="contact-icon"></span>
           <div className="contact-info">
             <h3>Email</h3>
-            <p>drew@example.com</p>
+            <p>drewsteele408@gmail.com</p>
           </div>
           <span className="contact-arrow">→</span>
         </a>
 
         <a
-          href="https://linkedin.com/in/yourusername"
+          href="https://www.linkedin.com/in/andrew-steele408/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link linkedin-link"
@@ -36,7 +36,7 @@ export function Contact() {
         </a>
 
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/drewsteele408"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link github-link"

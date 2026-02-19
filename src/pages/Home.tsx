@@ -14,19 +14,14 @@ export function Home() {
               View Projects
             </Link>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/drewsteele408"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-secondary"
             >
               GitHub
             </a>
-            <a
-              href="/resume.pdf"
-              className="btn btn-secondary"
-            >
-              Resume
-            </a>
+    
             <Link to="/contact" className="btn btn-secondary">
               Contact
             </Link>

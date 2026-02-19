@@ -10,6 +10,7 @@ export interface Project {
   keyFeatures: string[];
   architecture: string;
   screenshots: string[];
+  videoUrl?: string;
 }
 
 export const projects: Project[] = [
@@ -18,7 +19,7 @@ export const projects: Project[] = [
     title: "E-Commerce Platform",
     description: "E-commerce platform to sell Yerba mate essentials",
     stack: ["React", "Vite", "Node.js", "React Router DOM", "TypeScript", "CSS"],
-    liveUrl: "",
+    liveUrl: "public/",
     repoUrl: "https://github.com/drewsteele408/yerba-shirts/tree/main",
     problem:
       "Since yerba mate is a somewhat new product within the United States, there are few places online to buy authentic and organic yerba mate.",
@@ -32,6 +33,7 @@ export const projects: Project[] = [
     ],
     architecture:
       "This yerba mate e-commerce platform is a modern, full-stack React application built with TypeScript and Vite. This application follows component based architechture with reusable UI components, React routing for client-side navigation, and modular CSS structure for styling options.",
+    videoUrl: "/videos/myshop-demo.mp4",
     screenshots: [
      "DON'T FORGET TO ADD SCREENSHOTS HERE ",
     ],
@@ -58,6 +60,7 @@ export const projects: Project[] = [
     ],
     architecture:
       "This application utilizes HTML to create static feature pages as well as a welcome landing page. This application also uses modular JavaScript files for each feature as well as shared utility JavaScript files. CSS is used for the styling tool accross all pages, and LocalStorage is used to store data such as character information",
+    videoUrl: "/videos/dnd-toolkit-demo.mp4",
     screenshots: [
       "/screenshots/project-manager-board.png",
       "/screenshots/project-manager-timeline.png",
@@ -83,7 +86,7 @@ export const projects: Project[] = [
     ],
     architecture:
       "This application uses component based architechture with reusable components such as the header and footer components. The content is stored in different configuration files to dynamically upload information to the site. There are different TypeScript interfaces that are used throughout the app to ensure type safety, and CSS is used to styling withing component based files.",
-
+    videoUrl: "/videos/u2-qbo-brochure-demo.mp4",
     screenshots: [
       "/screenshots/dashboard-charts.png",
       "/screenshots/dashboard-metrics.png",
