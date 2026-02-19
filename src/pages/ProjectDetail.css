@@ -1,0 +1,305 @@
+.project-detail {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  color: #2563eb;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+  gap: 0.5rem;
+}
+
+.back-link:hover {
+  color: #1e40af;
+  transform: translateX(-4px);
+}
+
+.error-message {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+.error-message h2 {
+  color: #ef4444;
+  margin-bottom: 1rem;
+}
+
+.error-message a {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.detail-header {
+  margin-bottom: 3rem;
+  background: linear-gradient(135deg, #f1f5f9 0%, #e0e7ff 100%);
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+
+.detail-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.detail-description {
+  font-size: 1.1rem;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.detail-section {
+  background: white;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+}
+
+.detail-section h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid #2563eb;
+  padding-bottom: 0.75rem;
+}
+
+.detail-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.detail-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.problem-solution {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.problem,
+.solution {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #f8fafc;
+}
+
+.problem {
+  border-left: 4px solid #ef4444;
+}
+
+.solution {
+  border-left: 4px solid #10b981;
+}
+
+.problem h3,
+.solution h3 {
+  margin-top: 0;
+}
+
+.problem p,
+.solution p {
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+}
+
+.features-list li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.features-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.stack-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.stack-list,
+.architecture {
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tech-badge {
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.architecture p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.owned-list {
+  list-style: none;
+  padding: 0;
+}
+
+.owned-list li {
+  padding: 0.75rem 0;
+  padding-left: 2rem;
+  position: relative;
+  color: #64748b;
+  line-height: 1.7;
+}
+
+.owned-list li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+}
+
+.challenges-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.challenge-item {
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-left: 4px solid #2563eb;
+  border-radius: 0.5rem;
+}
+
+.challenge-item h3 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.challenge-text,
+.solution-text {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0.5rem 0;
+}
+
+.testing-deployment {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.testing,
+.deployment {
+  padding: 1.5rem;
+  background-color: #f8fafc;
+  border-radius: 0.5rem;
+}
+
+.testing p,
+.deployment p {
+  color: #64748b;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.link-button {
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link-button.primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.link-button.primary:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+}
+
+.link-button.secondary {
+  background-color: #f1f5f9;
+  color: #2563eb;
+  border: 2px solid #2563eb;
+}
+
+.link-button.secondary:hover {
+  background-color: #2563eb;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .detail-header h1 {
+    font-size: 2rem;
+  }
+
+  .detail-section {
+    padding: 1.5rem;
+  }
+
+  .problem-solution,
+  .stack-content,
+  .testing-deployment {
+    grid-template-columns: 1fr;
+  }
+
+  .project-links {
+    flex-direction: column;
+  }
+
+  .link-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
